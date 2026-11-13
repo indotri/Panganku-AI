@@ -1,0 +1,336 @@
+{
+  "dataset_summary": {
+    "total_records": 10000,
+    "total_columns": 29,
+    "date_range": {
+      "start": "2026-01-02",
+      "end": "2026-10-19"
+    },
+    "provinces_count": 38,
+    "provinces": [
+      "Aceh",
+      "Bali",
+      "Bangka Belitung",
+      "Banten",
+      "Bengkulu",
+      "DI Yogyakarta",
+      "DKI Jakarta",
+      "Gorontalo",
+      "Jambi",
+      "Jawa Barat",
+      "Jawa Tengah",
+      "Jawa Timur",
+      "Kalimantan Barat",
+      "Kalimantan Selatan",
+      "Kalimantan Tengah",
+      "Kalimantan Timur",
+      "Kalimantan Utara",
+      "Kepulauan Riau",
+      "Lampung",
+      "Maluku",
+      "Maluku Utara",
+      "Nusa Tenggara Barat",
+      "Nusa Tenggara Timur",
+      "Papua",
+      "Papua Barat",
+      "Papua Barat Daya",
+      "Papua Pegunungan",
+      "Papua Selatan",
+      "Papua Tengah",
+      "Riau",
+      "Sulawesi Barat",
+      "Sulawesi Selatan",
+      "Sulawesi Tengah",
+      "Sulawesi Tenggara",
+      "Sulawesi Utara",
+      "Sumatera Barat",
+      "Sumatera Selatan",
+      "Sumatera Utara"
+    ],
+    "market_types": [
+      "Kios Toko Kelontong Permukiman",
+      "Pasar Induk Grosir Regional",
+      "Pasar Tradisional Rakyat",
+      "Ritel Modern & Supermarket"
+    ],
+    "commodities": [
+      {
+        "commodity_name": "Bawang Merah",
+        "category": "Hortikultura Cabai & Bawang",
+        "unit": "kg",
+        "avg_price": 49316.85,
+        "min_price": 31400.0,
+        "max_price": 122600.0,
+        "sample_count": 647
+      },
+      {
+        "commodity_name": "Bawang Putih Honan",
+        "category": "Hortikultura Cabai & Bawang",
+        "unit": "kg",
+        "avg_price": 49833.26,
+        "min_price": 33300.0,
+        "max_price": 101000.0,
+        "sample_count": 487
+      },
+      {
+        "commodity_name": "Beras Medium",
+        "category": "Bahan Pokok Beras",
+        "unit": "kg",
+        "avg_price": 14505.17,
+        "min_price": 12600.0,
+        "max_price": 15500.0,
+        "sample_count": 1393
+      },
+      {
+        "commodity_name": "Beras Premium",
+        "category": "Bahan Pokok Beras",
+        "unit": "kg",
+        "avg_price": 18984.3,
+        "min_price": 14000.0,
+        "max_price": 31000.0,
+        "sample_count": 962
+      },
+      {
+        "commodity_name": "Cabai Merah Keriting",
+        "category": "Hortikultura Cabai & Bawang",
+        "unit": "kg",
+        "avg_price": 66389.8,
+        "min_price": 36200.0,
+        "max_price": 132400.0,
+        "sample_count": 696
+      },
+      {
+        "commodity_name": "Cabai Rawit Merah",
+        "category": "Hortikultura Cabai & Bawang",
+        "unit": "kg",
+        "avg_price": 81286.45,
+        "min_price": 43200.0,
+        "max_price": 155000.0,
+        "sample_count": 782
+      },
+      {
+        "commodity_name": "Daging Ayam Ras",
+        "category": "Protein Hewani Ternak",
+        "unit": "kg",
+        "avg_price": 41929.99,
+        "min_price": 31000.0,
+        "max_price": 63200.0,
+        "sample_count": 1067
+      },
+      {
+        "commodity_name": "Daging Sapi Paha Belakang",
+        "category": "Protein Hewani Ternak",
+        "unit": "kg",
+        "avg_price": 145493.5,
+        "min_price": 118000.0,
+        "max_price": 155000.0,
+        "sample_count": 400
+      },
+      {
+        "commodity_name": "Gula Pasir Konsumsi",
+        "category": "Gula & Bumbu Dapur",
+        "unit": "kg",
+        "avg_price": 20455.09,
+        "min_price": 15600.0,
+        "max_price": 28800.0,
+        "sample_count": 1042
+      },
+      {
+        "commodity_name": "Minyak Goreng Kemasan Premium",
+        "category": "Minyak Nabati",
+        "unit": "liter",
+        "avg_price": 24058.85,
+        "min_price": 18100.0,
+        "max_price": 37700.0,
+        "sample_count": 593
+      },
+      {
+        "commodity_name": "Minyak Goreng Minyakita",
+        "category": "Minyak Nabati",
+        "unit": "liter",
+        "avg_price": 16171.49,
+        "min_price": 14400.0,
+        "max_price": 17500.0,
+        "sample_count": 982
+      },
+      {
+        "commodity_name": "Telur Ayam Ras",
+        "category": "Protein Hewani Ternak",
+        "unit": "kg",
+        "avg_price": 32811.38,
+        "min_price": 24400.0,
+        "max_price": 44100.0,
+        "sample_count": 949
+      }
+    ],
+    "market_type_stats": [
+      {
+        "market_type": "Kios Toko Kelontong Permukiman",
+        "avg_price": 40926.31,
+        "count": 1999
+      },
+      {
+        "market_type": "Pasar Induk Grosir Regional",
+        "avg_price": 36722.7,
+        "count": 2445
+      },
+      {
+        "market_type": "Pasar Tradisional Rakyat",
+        "avg_price": 38685.0,
+        "count": 4554
+      },
+      {
+        "market_type": "Ritel Modern & Supermarket",
+        "avg_price": 42100.5,
+        "count": 1002
+      }
+    ],
+    "risk_tier_distribution": {
+      "Tier 3 - High Supply Strain": 3153,
+      "Tier 2 - Moderate Price Drift": 2664,
+      "Tier 1 - Stable Baseline": 2641,
+      "Tier 4 - Severe Inflationary Spike": 1542
+    },
+    "primary_driver_distribution": {
+      "Normal-Equilibrium": 3269,
+      "Ramadhan-Demand-Shock": 1994,
+      "Intervention-Price-Stabilized": 1280,
+      "Weather-Supply-Deficit": 1259,
+      "Middleman-Margin-Markup": 1174,
+      "High-Freight-Distance-Penalty": 1024
+    },
+    "weather_severities": [
+      "Banjir Sentra Hortikultura",
+      "Curah Hujan Tinggi Moderat",
+      "Kekeringan Musiman",
+      "Kondisi Normal Stabil"
+    ],
+    "purchasing_intensities": [
+      "Lonjakan Menjelang Ramadhan/Lebaran",
+      "Panik Borong Spekulatif",
+      "Penurunan Akhir Bulan",
+      "Permintaan Normal Stabil"
+    ],
+    "market_interventions": [
+      "Gerakan Pangan Murah Serentak",
+      "Operasi Pasar Beras SPHP Bulog",
+      "Penyaluran Minyakita Subsidi",
+      "Tidak Ada Intervensi Pasar"
+    ]
+  },
+  "regression_metrics": {
+    "model_name": "RandomForestRegressor (n_estimators=150)",
+    "r2_score": 0.9917944315429503,
+    "mae": 1282.4936666666665,
+    "rmse": 2761.2221791164225,
+    "mape_pct": 2.6149543136891316,
+    "train_samples": 8000,
+    "test_samples": 2000
+  },
+  "classification_metrics": {
+    "model_name": "RandomForestClassifier (n_estimators=150)",
+    "accuracy": 0.8715,
+    "f1_score_weighted": 0.8707105211004945,
+    "classification_report": {
+      "Tier 1 - Stable Baseline": {
+        "precision": 0.9702602230483272,
+        "recall": 0.9886363636363636,
+        "f1-score": 0.9793621013133208,
+        "support": 528.0
+      },
+      "Tier 2 - Moderate Price Drift": {
+        "precision": 0.9200779727095516,
+        "recall": 0.8855534709193246,
+        "f1-score": 0.9024856596558317,
+        "support": 533.0
+      },
+      "Tier 3 - High Supply Strain": {
+        "precision": 0.7955555555555556,
+        "recall": 0.8510301109350238,
+        "f1-score": 0.8223583460949464,
+        "support": 631.0
+      },
+      "Tier 4 - Severe Inflationary Spike": {
+        "precision": 0.7737226277372263,
+        "recall": 0.6883116883116883,
+        "f1-score": 0.7285223367697594,
+        "support": 308.0
+      },
+      "accuracy": 0.8715,
+      "macro avg": {
+        "precision": 0.8649040947626652,
+        "recall": 0.8533829084506,
+        "f1-score": 0.8581821109584646,
+        "support": 2000.0
+      },
+      "weighted avg": {
+        "precision": 0.8715005410611646,
+        "recall": 0.8715,
+        "f1-score": 0.8707105211004945,
+        "support": 2000.0
+      }
+    }
+  },
+  "top_features": [
+    {
+      "feature": "previous_month_baseline_price_idr",
+      "importance": 0.9503823971090662
+    },
+    {
+      "feature": "commodity_name_Daging Sapi Paha Belakang",
+      "importance": 0.013010602583621099
+    },
+    {
+      "feature": "weather_shock_severity_Kondisi Normal Stabil",
+      "importance": 0.010199612214238315
+    },
+    {
+      "feature": "weather_shock_severity_Banjir Sentra Hortikultura",
+      "importance": 0.005968069794097435
+    },
+    {
+      "feature": "consumer_purchasing_intensity_Lonjakan Menjelang Ramadhan/Lebaran",
+      "importance": 0.0050861544145283915
+    },
+    {
+      "feature": "market_daily_inflow_volume_tons",
+      "importance": 0.003706452803226853
+    },
+    {
+      "feature": "consumer_purchasing_intensity_Panik Borong Spekulatif",
+      "importance": 0.001832209709273439
+    },
+    {
+      "feature": "commodity_name_Daging Ayam Ras",
+      "importance": 0.0009110329086833361
+    },
+    {
+      "feature": "logistics_freight_cost_per_kg_idr",
+      "importance": 0.0008196583998279721
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.000789863456295678
+    },
+    {
+      "feature": "distance_to_production_hub_km",
+      "importance": 0.0007510522908868492
+    },
+    {
+      "feature": "consumer_purchasing_intensity_Penurunan Akhir Bulan",
+      "importance": 0.0006289626121647042
+    },
+    {
+      "feature": "consumer_purchasing_intensity_Permintaan Normal Stabil",
+      "importance": 0.000622735581325963
+    },
+    {
+      "feature": "market_type_Ritel Modern & Supermarket",
+      "importance": 0.0005943483401655702
+    },
+    {
+      "feature": "commodity_name_Minyak Goreng Minyakita",
+      "importance": 0.0005074319244654513
+    }
+  ]
+}
