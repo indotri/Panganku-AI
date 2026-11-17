@@ -2,7 +2,7 @@ import os
 import json
 import datetime
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import pandas as pd
@@ -187,6 +187,7 @@ def root():
         "models_loaded": reg_pipeline is not None and clf_pipeline is not None
     }
 
+@app.get("/metadata")
 @app.get("/api/metadata")
 def get_metadata():
     """Returns 38 provinces, 4 market types, 12 commodities with specs, and scenario lists."""
@@ -211,6 +212,7 @@ def get_metadata():
         ]
     }
 
+@app.get("/map-data")
 @app.get("/api/map-data")
 def get_map_data(commodity: str = "Beras Medium"):
     """
@@ -304,6 +306,7 @@ def get_map_data(commodity: str = "Beras Medium"):
         }
     }
 
+@app.post("/recipe-assistant")
 @app.post("/api/recipe-assistant")
 def recipe_assistant(req: RecipeAssistantRequest):
     """
@@ -366,6 +369,7 @@ def recipe_assistant(req: RecipeAssistantRequest):
         "ai_rationale": pricing["ai_rationale"]
     }
 
+@app.post("/predict-shopping")
 @app.post("/api/predict-shopping")
 def predict_shopping(req: ShoppingPredictRequest):
     """
@@ -515,6 +519,7 @@ def predict_shopping(req: ShoppingPredictRequest):
         )
     }
 
+@app.get("/analytics")
 @app.get("/api/analytics")
 def get_analytics():
     """
